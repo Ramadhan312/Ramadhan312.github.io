@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+a{
+    color:inherit;
+    text-decoration: none;
+}
+.medsos{
+    padding: 6px 0;
+    background-color: rgb(245, 139, 18);
+    color: rgb(0, 0, 0);
+    margin: auto;
+    position: static;
+}
+
+.container{
+    width: 100%;
+}
+.container:after{
+    content:'';
+    display: block;
+    clear: both;
+}
+
+header h1{
+    padding: 15px 0;
+    color: rgb(0, 0, 0) ;
+    margin-left: 10px;
+}
+
+header ul{
+    float: right;
+    background-color:rgb(245, 139, 18) ;
+    width: 100%;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+header ul li a{
+    padding: 25px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    
+}
+header ul li a:hover{
+    color: #fff;
+}
+
+.active{
+    background-color:rgb(245, 139, 18) ;
+    color: #fff;
+}
+
+.hero{
+    padding: 10px;
+}
+
+.hero img{
+    width: 100%;
+}
+
+.hero h2{
+    background-color:rgba(245, 139, 18, 0.507) ;
+    padding: 5px;
+}
+
+
+.foot p{
+    height: 20px;
+    padding: 4px;
+    line-height: 20px;
+    background: rgb(245, 139, 18);
+    color: rgb(0, 0, 0);
+    bottom: 0px;
+    font-size:1.5ch;
+}
+
+.box{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 5px solid rgb(245, 139, 18);
+}
+
+/*edit*/
+
+.contact{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+}
+
+.gmap_iframe{
+    border: 5px solid rgb(245, 139, 18);
+}
+
+.maps h2{
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+
+.mycontact h3{
+    margin-top: 30px;
+}
+
+.mycontact p{
+    margin-top: 10px;
+}
+
+
+
+
