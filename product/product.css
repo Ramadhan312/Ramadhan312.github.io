@@ -93,13 +93,13 @@ header ul li a:hover{
 .product{
     width: 100%;
     height: auto;
-    padding: 10px;
+    padding-left: 10px;
 }
 
 .product h3{
     text-align: left;
     padding: 5px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .product ul li {
@@ -113,7 +113,14 @@ header ul li a:hover{
     width: 150px;
     border: 1px solid;
     margin-left: 30px;
+    padding-top: 5px;
 }
+.product p{
+    padding-top: 5px;
+    padding-left: 6px;
+    padding-bottom: 10px;
+}
+
 
 /* Back to Top Pure CSS by igniel.com */
 html {scroll-behavior:smooth;}
