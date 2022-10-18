@@ -112,13 +112,20 @@ header ul li a:hover{
     padding-bottom: 10px;
 }
 
+.mycontact {
+    border: 3px solid rgb(245, 139, 18);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+}
 
 .mycontact h3{
-    margin-top: 30px;
+    
 }
 
 .mycontact p{
     margin-top: 10px;
+    
 }
 
 
