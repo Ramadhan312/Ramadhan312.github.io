@@ -30,6 +30,7 @@ a{
     position:relative;
     float: left;
     width: 400px;
+    margin: 5px;
 }
 
 header h1{
