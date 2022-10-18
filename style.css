@@ -29,17 +29,17 @@ a{
 .container img {
     position:relative;
     float: left;
-    width: 130px;
-    padding: 10px;
-
+    width: 400px;
 }
 
 header h1{
-    padding: 15px 0;
+    padding: 15px;
     color: rgb(0, 0, 0) ;
-    margin-left: 10px;
+    margin-left: 130px;
     position: relative;
-    text-align:center;
+    text-align: center;
+    border: 1px solid;
+    height: 155px;
 }
 
 header ul{
