@@ -32,7 +32,8 @@
             <a href="../index.html"><img src="/img/logo_PPT.jpg"></a>
             <ul>
               <li><a href="/index.html"><b>home</b></a></li>
-              <li><a href="/product/product.html"><b>product</b></a></li>              
+              <li><a href="/product/product.html"><b>product</b></a></li>
+              <li><a href="#"><b>services</b></a></li>              
               <li class="active"><a href="/contact-us/contact-us.html"><b>contact us</b></a></li>
             </ul>
           </div>
@@ -47,13 +48,33 @@
           <div class="mycontact">
             <h3>
               Our Contact
-            </h3>
-            <p>              
-              <a href="tel:02484310435"><i class="fa-solid fa-phone"></i> Telp. : (024) 84310435</a> 
-              <br/><a href="https://wa.me/6281393339539"><i class="fa-brands fa-whatsapp"></i>&ensp;Wa. : +6281393339539 (Bpk. Budianto)</a> 
-              <br/><a href="mailto:putraperwirateknik@gmail.com"><i class="fa-solid fa-envelope"></i>&ensp;Email : putraperwirateknik@gmail.com</a>
+            </h3>             
+              <p><i class="fa-solid fa-phone"></i> Telp. : <a href="tel:02484310435">(024) 84310435</a></p>
+              <p><i class="fa-brands fa-whatsapp"></i>&ensp;Wa. : <a href="https://wa.me/6281393339539">+6281393339539 (Bpk. Budianto)</a></p>
+              <p><i class="fa-solid fa-envelope"></i>&ensp;Email : <a href="mailto:putraperwirateknik@gmail.com">putraperwirateknik@gmail.com</a></p>
+          </div>
+          <div class="mailbox">
+            <p>
+              For more information, you can email us :
             </p>
-          </div>          
+            <form> 
+              <p>
+                <label for="email">Email : </label>
+                <input type="text" placeholder="example@mail.com" id="mail">
+              </p>           
+              <p>
+                <label for="subject">Subject : </label>
+                <input type="text" placeholder="apa keperluanmu?" id="subject">
+              </p>              
+              <p>
+                <label for="Message">Message : </label>
+                <input type="text" placeholder="tulis pesan" id="message">
+              </p>              
+              <button type="submit" onclick="javascript:alert('Pesan anda telah terkirim. Silahkan cek email anda');" href="/contact-us/contact-us.html">
+                send
+              </button>
+            </form>            
+          </div>                  
         </section>
     </body>
 
