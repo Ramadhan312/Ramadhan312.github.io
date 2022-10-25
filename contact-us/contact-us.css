@@ -78,13 +78,11 @@ header ul li a:hover{
 
 
 .foot p{
-    padding: 4px;
-    line-height: 20px;
-    background: rgb(245, 139, 18);
+    padding-left: 5px;
+    background: rgba(245, 139, 18, 0.788);
     color: rgb(0, 0, 0);
-    bottom: 0px;
     font-size:1.5ch;
-    width: 100%;
+    font-family:bahnschrift;
 }
 
 .box{
@@ -174,3 +172,21 @@ header ul li a:hover{
 button:hover{
     color: #fff;
 }
+
+.maps{
+    justify-content: center;
+}
+
+.maps p{
+    width: fit-content;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgba(245, 139, 18, 0.726);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.maps p:hover{
+    background-color: rgb(245, 139, 18);
+}
+
