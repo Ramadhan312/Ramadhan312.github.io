@@ -94,7 +94,12 @@ header ul li a:hover{
     padding: 5px;
     width: 80%;
     margin: auto;
+    font-family:consolas;
+}
 
+.hero h2:hover{
+    background-color:rgba(245, 139, 18);
+    transition: 0.8s ease;
 }
 
 section a{
@@ -109,13 +114,11 @@ section{
 
 
 .foot p{
-    height: 20px;
-    padding: 4px;
-    line-height: 20px;
-    background: rgb(245, 139, 18);
+    padding-left: 5px;
+    background: rgba(245, 139, 18, 0.788);
     color: rgb(0, 0, 0);
-    bottom: 0px;
     font-size:1.5ch;
+    font-family:bahnschrift;
 }
 
 .box{
