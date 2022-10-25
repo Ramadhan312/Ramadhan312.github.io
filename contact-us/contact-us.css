@@ -131,48 +131,6 @@ header ul li a:hover{
     color: rgb(245, 139, 18);
 }
 
-/*mailbox*/
-.mailbox {
-    border-radius: 10px;
-    width:fit-content;
-    margin-top: 30px;
-    padding: 10px;
-}
-
-
-.mailbox p { 
-    display: table-row;  
-    padding: 10px;
-}
-.mailbox label { 
-    display: table-cell; 
-    padding: 7px; 
-    font:message-box; 
-}
-.mailbox input { 
-    display: table-cell; 
-    width: 300px; 
-    height: auto; 
-}
-.mailbox button {
-    border: none;
-    padding: 10px;
-    width: 100%;
-    background-color: rgb(245, 139, 18);
-    border-radius: 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
-
-button:hover{
-    color: #fff;
-}
-
 .maps{
     justify-content: center;
 }
@@ -190,3 +148,17 @@ button:hover{
     background-color: rgb(245, 139, 18);
 }
 
+/*----------mailbox----------*/
+.mailbox {
+    width: fit-content;
+    margin-left: 10px;
+    display: block;
+}
+
+.mailbox p{
+    user-select: none;
+}
+
+.mailbox a:hover{
+    color: rgb(245, 139, 18);
+}
