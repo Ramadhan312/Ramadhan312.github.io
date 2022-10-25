@@ -1,164 +1,190 @@
 * {
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
 }
-a{
-    color:inherit;
-    text-decoration: none;
+a {
+  color: inherit;
+  text-decoration: none;
 }
-.medsos{
-    padding: 6px 0;
-    background-color: rgb(245, 139, 18);
-    color: rgb(0, 0, 0);
-    margin: auto;
-    position: static;
+.medsos {
+  padding: 6px 0;
+  background-color: rgb(245, 139, 18);
+  color: rgb(0, 0, 0);
+  margin: auto;
+  position: static;
 }
 
-.container{
-    width: 100%;
+.container {
+  width: 100%;
 }
-.container:after{
-    content:'';
-    display: block;
-    clear: both;
+
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .container img {
-    position:relative;
-    float: left;
-    width: 400px;
-    margin: 5px;
+  position: relative;
+  float: left;
+  width: 100%;
 }
 
-header h1{
-    padding: 15px 0;
-    color: rgb(0, 0, 0) ;
-    margin-left: 10px;
+header h1 {
+  padding: 15px 0;
+  color: rgb(0, 0, 0);
+  margin-left: 10px;
 }
 
-header ul{
-    float: right;
-    background-color:rgb(245, 139, 18) ;
-    width: 100%;
+header ul {
+  float: right;
+  background-color: rgb(245, 139, 18);
+  width: 100%;
 }
 
-header ul li{
-    display: inline-block;
+header ul li {
+  display: inline-block;
 }
 
-header ul li a{
-    padding: 25px 20px;
-    display: inline-block;
-    text-transform: uppercase;
-    
+header ul li a {
+  padding: 10px 10px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: small;
 }
-header ul li a:hover{
-    color: #fff;
-}
-
-.active{
-    background-color:rgb(245, 139, 18) ;
-    color: #fff;
+header ul li a:hover {
+  color: #fff;
 }
 
-.hero{
-    padding: 10px;
+.active {
+  background-color: rgb(245, 139, 18);
+  color: #fff;
 }
 
-.hero img{
-    width: 100%;
+.hero {
+  padding: 10px;
 }
 
-.hero h2{
-    background-color:rgba(245, 139, 18, 0.507) ;
-    padding: 5px;
+.hero img {
+  width: 100%;
 }
 
-
-.foot p{
-    padding-left: 5px;
-    background: rgba(245, 139, 18, 0.788);
-    color: rgb(0, 0, 0);
-    font-size:1.5ch;
-    font-family:bahnschrift;
+.hero h2 {
+  background-color: rgba(245, 139, 18, 0.507);
+  padding: 5px;
 }
 
-.box{
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    border: 5px solid rgb(245, 139, 18);
+.foot p {
+  padding-left: 5px;
+  background: rgba(245, 139, 18, 0.788);
+  color: rgb(0, 0, 0);
+  font-size: 1.5ch;
+  font-family: bahnschrift;
+}
+
+.box {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 5px solid rgb(245, 139, 18);
 }
 
 /*-----------------edit-----------------*/
 
-.contact{
-    width: 100%;
-    height: auto;
-    padding: 30px;
+.contact {
+  width: 100%;
+  height: auto;
+  padding: 30px;
 }
 
 /*maps*/
-.gmap_iframe{
-    border: 5px solid rgb(245, 139, 18);
+.gmap_iframe {
+  border: 5px solid rgb(245, 139, 18);
 }
 
-.maps h2{
-    text-align: left;
-    padding-bottom: 10px;
+.maps h2 {
+  text-align: left;
+  padding-bottom: 10px;
 }
 
 /*contact*/
 .mycontact {
-    width: fit-content;
-    border-radius: 5px;
-    padding: 10px;
-    margin-top: 30px;
+  width: fit-content;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 30px;
 }
 
-.mycontact h3{
-    margin-bottom: 10px;
+.mycontact h3 {
+  margin-bottom: 10px;
 }
 
-.mycontact p{
-    padding: 4px;
+.mycontact p {
+  padding: 4px;
 }
 
-.mycontact a:hover{
-    color: rgb(245, 139, 18);
+.mycontact a:hover {
+  color: rgb(245, 139, 18);
 }
 
-.maps{
-    justify-content: center;
+.maps {
+  justify-content: center;
 }
 
-.maps p{
-    width: fit-content;
-    margin-top: 10px;
-    padding: 10px;
-    background-color: rgba(245, 139, 18, 0.726);
-    transition-duration: 0.4s;
-    cursor: pointer;
+.maps p {
+  width: fit-content;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgba(245, 139, 18, 0.726);
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
-.maps p:hover{
-    background-color: rgb(245, 139, 18);
+.maps p:hover {
+  background-color: rgb(245, 139, 18);
 }
 
 /*----------mailbox----------*/
 .mailbox {
-    width: fit-content;
-    margin-left: 10px;
+  width: fit-content;
+  margin-left: 10px;
+  display: block;
+}
+
+.mailbox p {
+  user-select: none;
+}
+
+.mailbox a:hover {
+  color: rgb(245, 139, 18);
+}
+
+/* Desktop Version */
+@media (min-width: 992px) {
+  .container {
+    width: 100%;
+  }
+
+  .container:after {
+    content: "";
     display: block;
-}
+    clear: both;
+  }
 
-.mailbox p{
-    user-select: none;
-}
+  .container img {
+    position: relative;
+    float: left;
+    width: 400px;
+    margin: 5px;
+  }
 
-.mailbox a:hover{
-    color: rgb(245, 139, 18);
+  header ul li a {
+    padding: 25px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: large;
+  }
 }
