@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="/contact-us/contact-us.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="/img/link_logo_PPT.png">
+    <title>PT. Putra Perwira Teknik</title>
+  </head>
+  
+  <div class="box">
+    <body>
+        <!--header-->
+        <div class="medsos">
+          <div class="container">
+            <p><b>Time now : <span id="time"></span></b></p>
+            <script>
+              `use strict`;
+              function refreshTime() {
+                const timeDisplay = document.getElementById("time");
+                const dateString = new Date().toLocaleString();
+                const formattedString = dateString.replace(", ", " - ");
+                timeDisplay.textContent = formattedString;
+              }
+                setInterval(refreshTime, 1000);
+            </script>
+          </div>
+        </div>
+        <header>
+          <div class="container">
+            <a href="../index.html"><img src="/img/logo_PPT.jpg"></a>
+            <ul>
+              <li><a href="/index.html"><b>home</b></a></li>
+              <li><a href="/product/product.html"><b>product</b></a></li>
+              <li class="active"><a href="/services/services.html"><b>services</b></a></li>              
+              <li><a href="/contact-us/contact-us.html"><b>contact us</b></a></li>
+            </ul>
+          </div>
+        </header>
+
+        <!--services-->
+        <section class="services">
+          <h1>coming soon</h1>
+        </section>
+    </body>
+
+    <!--footer-->
+    <footer class="foot">      
+      <p>Copyright © 2022 <a href="/contact us/contact us.html">PT. Putra Perwira Teknik . </a>All rights reserved</p>
+    </footer>
+  </div>
+</html>
